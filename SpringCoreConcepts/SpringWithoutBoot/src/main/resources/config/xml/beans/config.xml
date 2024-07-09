@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"-->
+<!--        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">-->
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context.xsd
+"
+>
+    <context:component-scan base-package="another.world"/>
+    <context:component-scan base-package="org.example"/>
+
+    <bean id="address" class="config.xml.beans.Address">
+        <property name="city" value="kolkata"/>
+        <property name="street" value="pandrajam"/>
+    </bean>
+
+
+    <bean class="config.xml.beans.Student" id="student1">
+        <property name="name" value="amrit"/>
+        <property name="age" value="29"/>
+        <property name="address" ref="address"/>
+        <property name="map">
+            <map>
+                <entry key="java" value="1200"/>
+                <entry key="aj" value="233"/>
+                <entry key="kja" value="567"/>
+                <entry key="iuqo" value="75"/>
+                <entry key="oieqo" value="3456"/>
+            </map>
+        </property>
+
+    </bean>
+
+</beans>

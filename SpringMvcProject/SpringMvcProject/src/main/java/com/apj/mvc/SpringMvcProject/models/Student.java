@@ -1,0 +1,62 @@
+package com.apj.mvc.SpringMvcProject.models;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Student {
+
+    private String name;
+    private int age;
+
+    //@JsonIgnore
+    private int rollno;
+
+    private int empid;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    //@JsonIgnore
+    //@JsonProperty
+    public int getRollno() {
+        return rollno;
+    }
+
+   // @JsonProperty
+   // @JsonIgnore
+    public void setRollno(int rollno) {
+        this.rollno = rollno;
+    }
+
+    public int getEmpid() {
+        return empid;
+    }
+
+    public void setEmpid(int empid) {
+        this.empid = empid;
+    }
+
+    @Override
+    public String
+    toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", rollno=" + rollno +
+                ", empid=" + empid +
+                '}';
+    }
+}

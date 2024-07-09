@@ -1,0 +1,77 @@
+2023-06-23T18:59:17.661+05:30  INFO 21568 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 21568 (D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject\target\classes started by amrit.jaiswal in D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject)
+2023-06-23T18:59:17.663+05:30  INFO 21568 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23T18:59:17.729+05:30  INFO 21568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-23T18:59:17.730+05:30  INFO 21568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-23T18:59:19.002+05:30  INFO 21568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-23T18:59:19.015+05:30  INFO 21568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-23T18:59:19.015+05:30  INFO 21568 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-23T18:59:19.081+05:30  INFO 21568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-23T18:59:19.082+05:30  INFO 21568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
+2023-06-23T18:59:19.541+05:30  INFO 21568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-23T18:59:19.582+05:30  INFO 21568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-23T18:59:19.592+05:30  INFO 21568 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.483 seconds (process running for 2.971)
+2023-06-23T18:59:26.126+05:30  INFO 21568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-23T18:59:26.127+05:30  INFO 21568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-23T18:59:26.128+05:30  INFO 21568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-23T18:59:26.169+05:30 ERROR 21568 --- [http-nio-8080-exec-1] c.a.m.S.controllers.ProductController    : ProductName its just checkinf Testing Argument
+2023-06-23T18:59:26.171+05:30  WARN 21568 --- [http-nio-8080-exec-1] c.a.m.S.controllers.ProductController    : Product Id 14325
+2023-06-23T18:59:26.171+05:30  INFO 21568 --- [http-nio-8080-exec-1] c.a.m.S.controllers.ProductController    : Product Rating23464
+2023-06-23T19:01:24.148+05:30 ERROR 21568 --- [http-nio-8080-exec-5] c.a.m.S.controllers.ProductController    : ProductName its SamsungTV Testing Argument
+2023-06-23T19:01:24.149+05:30  WARN 21568 --- [http-nio-8080-exec-5] c.a.m.S.controllers.ProductController    : Product Id 14325
+2023-06-23T19:01:24.149+05:30  INFO 21568 --- [http-nio-8080-exec-5] c.a.m.S.controllers.ProductController    : Product Rating12
+2023-06-23T19:03:57.734+05:30  INFO 24772 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 24772 (D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject\target\classes started by amrit.jaiswal in D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject)
+2023-06-23T19:03:57.738+05:30  INFO 24772 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23T19:03:57.799+05:30  INFO 24772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-23T19:03:57.800+05:30  INFO 24772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-23T19:03:59.056+05:30  INFO 24772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-23T19:03:59.066+05:30  INFO 24772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-23T19:03:59.067+05:30  INFO 24772 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-23T19:03:59.133+05:30  INFO 24772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-23T19:03:59.134+05:30  INFO 24772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2023-06-23T19:03:59.633+05:30  INFO 24772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-23T19:03:59.674+05:30  INFO 24772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-23T19:03:59.686+05:30  INFO 24772 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.446 seconds (process running for 2.943)
+2023-06-23T19:04:09.166+05:30  INFO 24772 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-23T19:04:09.166+05:30  INFO 24772 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-23T19:04:09.167+05:30  INFO 24772 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-06-23T19:04:09.208+05:30 ERROR 24772 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : ProductName its SamsungTV Testing Argument
+2023-06-23T19:04:09.211+05:30  WARN 24772 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Id 14325
+2023-06-23T19:04:09.211+05:30  INFO 24772 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Rating12
+2023-06-23T19:09:55.342+05:30  INFO 3352 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 3352 (D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject\target\classes started by amrit.jaiswal in D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject)
+2023-06-23T19:09:55.346+05:30  INFO 3352 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23T19:09:55.408+05:30  INFO 3352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-23T19:09:55.408+05:30  INFO 3352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-23T19:09:56.681+05:30  INFO 3352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-23T19:09:56.698+05:30  INFO 3352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-23T19:09:56.699+05:30  INFO 3352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-23T19:09:56.774+05:30  INFO 3352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-23T19:09:56.775+05:30  INFO 3352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2023-06-23T19:09:57.270+05:30  INFO 3352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-23T19:09:57.311+05:30  INFO 3352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-23T19:09:57.323+05:30  INFO 3352 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.496 seconds (process running for 3.04)
+2023-06-23T19:10:02.211+05:30  INFO 3352 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-23T19:10:02.212+05:30  INFO 3352 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-23T19:10:02.213+05:30  INFO 3352 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-23T19:10:02.247+05:30 ERROR 3352 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : ProductName its SamsungTV Testing Argument
+2023-06-23T19:10:02.249+05:30  WARN 3352 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Id 14325
+2023-06-23T19:10:02.249+05:30  INFO 3352 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Rating12
+2023-06-23T19:11:00.334+05:30  INFO 14728 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 14728 (D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject\target\classes started by amrit.jaiswal in D:\MasterSpringBoot\SpringMvcProject\SpringMvcProject)
+2023-06-23T19:11:00.338+05:30 DEBUG 14728 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-06-23T19:11:00.340+05:30  INFO 14728 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-23T19:11:00.399+05:30  INFO 14728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-23T19:11:00.399+05:30  INFO 14728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-23T19:11:01.624+05:30  INFO 14728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-23T19:11:01.639+05:30  INFO 14728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-23T19:11:01.639+05:30  INFO 14728 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-23T19:11:01.706+05:30  INFO 14728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-23T19:11:01.707+05:30  INFO 14728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2023-06-23T19:11:02.180+05:30  INFO 14728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-23T19:11:02.224+05:30  INFO 14728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-23T19:11:02.237+05:30  INFO 14728 --- [restartedMain] c.a.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.423 seconds (process running for 2.956)
+2023-06-23T19:11:10.585+05:30  INFO 14728 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-23T19:11:10.585+05:30  INFO 14728 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-23T19:11:10.586+05:30  INFO 14728 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-23T19:11:10.625+05:30 ERROR 14728 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : ProductName its SamsungTV Testing Argument
+2023-06-23T19:11:10.627+05:30  WARN 14728 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Id 14325
+2023-06-23T19:11:10.627+05:30  INFO 14728 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : Product Rating12
+2023-06-23T19:11:10.627+05:30 DEBUG 14728 --- [http-nio-8080-exec-2] c.a.m.S.controllers.ProductController    : This is testing for debig
